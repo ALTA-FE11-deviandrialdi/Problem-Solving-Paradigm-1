@@ -1,4 +1,4 @@
-const dragonOfLoowater = require("./problem3");
+import dragonOfLoowater from "./problem2";
 
 test("Test 1", () => {
   expect(dragonOfLoowater([5, 4], [7, 8, 4])).toEqual(11);

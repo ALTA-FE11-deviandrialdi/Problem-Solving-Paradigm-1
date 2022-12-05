@@ -1,4 +1,4 @@
-const lottery = require("./problem4");
+import lottery from "./problem4";
 
 test("Test 1", async () => {
   const randomNum = Math.ceil(Math.random() * 1000);
